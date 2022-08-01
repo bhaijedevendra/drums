@@ -1,0 +1,31 @@
+body {
+    background-color:lavenderblush;
+    margin: 0;
+}
+
+.keys {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    margin: 5px auto;
+    border: 2px solid none;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px gray;
+    background-color: white;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 0.05s;
+}
+
+.key_run {
+    box-shadow: 5px 5px 5px gray;
+    transform: scale(1.2);
+    border: 2px solid white;
+}
+
